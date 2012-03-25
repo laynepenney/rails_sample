@@ -1,4 +1,8 @@
 RailsSample::Application.routes.draw do
+
+  get "home" => "static_pages#home"
+  get "help" => "static_pages#help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
